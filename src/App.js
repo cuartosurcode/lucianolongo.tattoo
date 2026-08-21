@@ -1,52 +1,52 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
-import './AppPropia.css'
-import CustomProvider from './Provider'
-import Navdar from './MiPagina/Navdar'
-import Main from './MiPagina/Main'
-import { useState } from 'react'
-import Footer from './MiPagina/Footer'
+// import { HashRouter, Routes, Route } from 'react-router-dom'
+// import './AppPropia.css'
+// import CustomProvider from './Provider'
+// import Navdar from './MiPagina/Navdar'
+// import Main from './MiPagina/Main'
+// import { useState } from 'react'
+// import Footer from './MiPagina/Footer'
 
-function App() {
+// function App() {
 
-  const [contactoAbierto, setContactoAbierto] = useState(false)
-  const [reservaAbierta, setReservaAbierta] = useState(false)
+//   const [contactoAbierto, setContactoAbierto] = useState(false)
+//   const [reservaAbierta, setReservaAbierta] = useState(false)
 
-  const abrirContacto = () => {
-    setContactoAbierto(true)
-  }
+//   const abrirContacto = () => {
+//     setContactoAbierto(true)
+//   }
 
-  const abrirReserva = () => {
-    setReservaAbierta(true)
-  }
+//   const abrirReserva = () => {
+//     setReservaAbierta(true)
+//   }
 
-  return (
+//   return (
 
-    <div className="App">
+//     <div className="App">
 
-      <HashRouter>
-        <Navdar abrirContacto={abrirContacto} abrirReserva={abrirReserva} />
-        <Routes>
-          <Route path="/" element={<Main />} />
-        </Routes>
-        <Footer />
-      </HashRouter>
-    </div>
-  )
-}
-function NewApp() {
+//       <HashRouter>
+//         <Navdar abrirContacto={abrirContacto} abrirReserva={abrirReserva} />
+//         <Routes>
+//           <Route path="/" element={<Main />} />
+//         </Routes>
+//         <Footer />
+//       </HashRouter>
+//     </div>
+//   )
+// }
+// function NewApp() {
 
-  return (
+//   return (
 
-    <CustomProvider>
+//     <CustomProvider>
 
-      <App />
+//       <App />
 
-    </CustomProvider>
+//     </CustomProvider>
 
-  )
+//   )
 
-}
-export default NewApp
+// }
+// export default NewApp
 
 
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -99,25 +99,60 @@ export default NewApp
 // }
 // export default NewApp
 
-
 // import { HashRouter, Routes, Route } from 'react-router-dom'
-// import './AppPropia.css'
+// import { useState } from 'react'
+// import './Corralon.css'
+// import 'bootstrap-icons/font/bootstrap-icons.css'
+
 // import CustomProvider from './Provider'
+// import Navdar from './Corralon/Navdar'
+// import Main from './Corralon/Main'
+// import Footer from './Corralon/Footer'
+// import Contacto from './Corralon/Contacto'
 
 // function App() {
 
+//   const [contactoAbierto, setContactoAbierto] = useState(false)
+
+//   const abrirContacto = () => {
+//     setContactoAbierto(true)
+//   }
+
+//   const cerrarContacto = () => {
+//     setContactoAbierto(false)
+//   }
 
 //   return (
 
 //     <div className="App">
 
 //       <HashRouter>
+
+//         <Navdar abrirContacto={abrirContacto} />
+
 //         <Routes>
+//           <Route
+//             path="/"
+//             element={
+//               <Main abrirContacto={abrirContacto} />
+//             }
+//           />
 //         </Routes>
+
+//         <Footer abrirContacto={abrirContacto} />
+
+//         {
+//           contactoAbierto &&
+//           <Contacto cerrarContacto={cerrarContacto} />
+//         }
+
 //       </HashRouter>
+
 //     </div>
 //   )
 // }
+
+
 // function NewApp() {
 
 //   return (
@@ -129,6 +164,71 @@ export default NewApp
 //     </CustomProvider>
 
 //   )
-
 // }
+
 // export default NewApp
+
+
+
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import './IlDUccio.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
+import CustomProvider from './Provider'
+import Navdar from './IlDuccio/Navdar'
+import Main from './IlDuccio/Main'
+import Footer from './IlDuccio/Footer'
+import { useState } from 'react'
+import Galeria from './IlDuccio/Galeria'
+
+
+function App() {
+
+  const [galeriaAbierta, setGaleriaAbierta] = useState(false)
+
+  const abrirGaleria = () => {
+    setGaleriaAbierta(true)
+  }
+
+  const cerrarGaleria = () => {
+    setGaleriaAbierta(false)
+  }
+
+  return (
+
+    <div className="App">
+
+      <HashRouter>
+        <Navdar abrirGaleria={abrirGaleria} />
+        <Routes>
+          <Route path='/' element={<Main />} />
+        </Routes>
+        <Footer />
+
+        {
+          galeriaAbierta &&
+          <Galeria cerrarGaleria={cerrarGaleria} />
+        }
+
+
+      </HashRouter>
+
+    </div>
+  )
+}
+
+
+function NewApp() {
+
+  return (
+
+    <CustomProvider>
+
+      <App />
+
+    </CustomProvider>
+
+  )
+}
+
+export default NewApp
