@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/paginaPropia/static/css/main.0b5ce237.css",
+    "main.js": "/paginaPropia/static/js/main.ce91ea45.js",
+    "static/js/453.09ed972e.chunk.js": "/paginaPropia/static/js/453.09ed972e.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/paginaPropia/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/paginaPropia/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/paginaPropia/index.html",
+    "main.0b5ce237.css.map": "/paginaPropia/static/css/main.0b5ce237.css.map",
+    "main.ce91ea45.js.map": "/paginaPropia/static/js/main.ce91ea45.js.map",
+    "453.09ed972e.chunk.js.map": "/paginaPropia/static/js/453.09ed972e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5ce237.css",
+    "static/js/main.ce91ea45.js"
+  ]
+}
