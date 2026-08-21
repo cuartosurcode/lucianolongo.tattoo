@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lucianolongo.tattoo/static/css/main.1652a68e.css",
-    "main.js": "/lucianolongo.tattoo/static/js/main.493a1430.js",
+    "main.js": "/lucianolongo.tattoo/static/js/main.f0bcf9da.js",
     "static/js/453.09ed972e.chunk.js": "/lucianolongo.tattoo/static/js/453.09ed972e.chunk.js",
     "static/media/bootstrap-icons.woff?": "/lucianolongo.tattoo/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/lucianolongo.tattoo/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/lucianolongo.tattoo/index.html",
     "main.1652a68e.css.map": "/lucianolongo.tattoo/static/css/main.1652a68e.css.map",
-    "main.493a1430.js.map": "/lucianolongo.tattoo/static/js/main.493a1430.js.map",
+    "main.f0bcf9da.js.map": "/lucianolongo.tattoo/static/js/main.f0bcf9da.js.map",
     "453.09ed972e.chunk.js.map": "/lucianolongo.tattoo/static/js/453.09ed972e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1652a68e.css",
-    "static/js/main.493a1430.js"
+    "static/js/main.f0bcf9da.js"
   ]
 }
