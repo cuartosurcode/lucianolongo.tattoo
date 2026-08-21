@@ -62,8 +62,8 @@ const Intro = () => {
                 </span>
 
                 <h2>
-                    MORE THAN
-                    <span> TATTOO.</span>
+                    MAS QUE
+                    <span> UN TATTOO.</span>
                 </h2>
 
             </div>
@@ -87,7 +87,7 @@ const Intro = () => {
                         </span>
 
                         <span>
-                            TATTOO ARTIST
+                            ARTISTA
                         </span>
 
                     </div>

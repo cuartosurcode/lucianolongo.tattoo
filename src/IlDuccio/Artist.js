@@ -8,7 +8,7 @@ const Artist = () => {
             <div className="artistTattoo__top">
 
                 <span>
-                    04 / THE ARTIST
+                     THE ARTIST
                 </span>
 
                 <span>
@@ -21,11 +21,11 @@ const Artist = () => {
             <div className="artistTattoo__title">
 
                 <h2>
-                    BEHIND
+                    DETRÁS DE
                 </h2>
 
                 <h2 className="artistTattoo__titleOutline">
-                    THE INK.
+                   CADA PIEZA.
                 </h2>
 
             </div>
@@ -75,12 +75,12 @@ const Artist = () => {
 
                         <div>
                             <span>02</span>
-                            <p>REALISM</p>
+                            <p>REALISMO</p>
                         </div>
 
                         <div>
                             <span>03</span>
-                            <p>CUSTOM PIECES</p>
+                            <p>PIEZAS PERSONALIZADAS</p>
                         </div>
 
                     </div>

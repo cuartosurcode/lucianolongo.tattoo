@@ -40,12 +40,12 @@ const SelectedWorks = () => {
 
                 <div>
                     <span className="selectedWorks__eyebrow">
-                        03 / SELECTED WORKS
+                         SELECTED WORKS
                     </span>
 
                     <h2>
-                        SELECTED
-                        <span> WORKS</span>
+                        TIPOS DE 
+                        <span> TRABAJOS</span>
                     </h2>
                 </div>
 

@@ -10,17 +10,17 @@ const Process = () => {
         },
         {
             numero: '02',
-            titulo: 'DESIGN',
+            titulo: 'DISEÑO',
             texto: 'La composición se trabaja para adaptarse al cuerpo, al tamaño y al estilo de la pieza.'
         },
         {
             numero: '03',
-            titulo: 'SESSION',
+            titulo: 'SESIÓN',
             texto: 'Cada sesión se realiza cuidando el detalle, la técnica y el ritmo que necesita el trabajo.'
         },
         {
             numero: '04',
-            titulo: 'AFTERCARE',
+            titulo: 'CUIDADOS',
             texto: 'El cuidado posterior es parte del resultado final y ayuda a que el tatuaje cicatrice correctamente.'
         }
     ]
@@ -31,11 +31,11 @@ const Process = () => {
             <div className="processTattoo__top">
 
                 <span>
-                    05 / THE PROCESS
+                    EL PROCESO
                 </span>
 
                 <span>
-                    FROM IDEA TO SKIN
+                    DE LA IDEA A LA PIEL
                 </span>
 
             </div>
@@ -43,15 +43,15 @@ const Process = () => {
             <div className="processTattoo__heading">
 
                 <h2>
-                    FROM
+                    DE LA IDEA
                 </h2>
 
                 <h2 className="processTattoo__headingOutline">
-                    IDEA
+                    A 
                 </h2>
 
                 <h2 className="processTattoo__headingRight">
-                    TO SKIN.
+                    LA PIEL
                 </h2>
 
             </div>

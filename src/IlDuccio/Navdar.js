@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Navdar = ({ abrirGaleria }) => {
-
+const Navdar = ({ abrirGaleria, abrirReserva }) => {
     return (
         <nav className="tattooNav">
 
@@ -34,13 +33,14 @@ const Navdar = ({ abrirGaleria }) => {
 
                 </div>
 
-                <a
-                    href="#contacto"
+                <button
+                    type="button"
                     className="tattooNav__book"
+                    onClick={abrirReserva}
                 >
                     Reservar
                     <i className="bi bi-arrow-up-right"></i>
-                </a>
+                </button>
 
             </div>
 

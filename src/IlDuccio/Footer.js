@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ abrirReserva }) => {
 
     return (
         <footer className="footerTattoo" id="contacto">
@@ -23,11 +23,11 @@ const Footer = () => {
                 <h2 className="footerTattoo__title">
 
                     <span>
-                        MAKE IT
+                        HACELO
                     </span>
 
                     <span className="footerTattoo__titleOutline">
-                        PERMANENT.
+                        PARA SIEMPRE.
                     </span>
 
                 </h2>
@@ -41,16 +41,17 @@ const Footer = () => {
                         Hagamos que quede para siempre.
                     </p>
 
-                    <a
-                        href="#reservar"
-                        className="footerTattoo__book"
-                    >
-                        <span>
-                            RESERVAR TURNO
-                        </span>
+                   <button
+    type="button"
+    className="footerTattoo__book"
+    onClick={abrirReserva}
+>
+    <span>
+        RESERVAR TURNO
+    </span>
 
-                        <i className="bi bi-arrow-up-right"></i>
-                    </a>
+    <i className="bi bi-arrow-up-right"></i>
+</button>
 
                 </div>
 

@@ -180,41 +180,60 @@ import Main from './IlDuccio/Main'
 import Footer from './IlDuccio/Footer'
 import { useState } from 'react'
 import Galeria from './IlDuccio/Galeria'
+import Reserva from './IlDuccio/Reserva'
 
 
 function App() {
 
   const [galeriaAbierta, setGaleriaAbierta] = useState(false)
+    const [reservaAbierta, setReservaAbierta] = useState(false)
 
-  const abrirGaleria = () => {
-    setGaleriaAbierta(true)
-  }
+    const abrirGaleria = () => {
+        setGaleriaAbierta(true)
+    }
 
-  const cerrarGaleria = () => {
-    setGaleriaAbierta(false)
-  }
+    const cerrarGaleria = () => {
+        setGaleriaAbierta(false)
+    }
 
-  return (
+    const abrirReserva = () => {
+        setReservaAbierta(true)
+    }
 
-    <div className="App">
+    const cerrarReserva = () => {
+        setReservaAbierta(false)
+    }
 
-      <HashRouter>
-        <Navdar abrirGaleria={abrirGaleria} />
-        <Routes>
-          <Route path='/' element={<Main />} />
-        </Routes>
-        <Footer />
+    return (
+        <div className="App">
 
-        {
-          galeriaAbierta &&
-          <Galeria cerrarGaleria={cerrarGaleria} />
-        }
+            <HashRouter>
 
+                <Navdar
+                    abrirGaleria={abrirGaleria}
+                    abrirReserva={abrirReserva}
+                />
 
-      </HashRouter>
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                </Routes>
 
-    </div>
-  )
+                <Footer abrirReserva={abrirReserva} />
+
+                {
+                    galeriaAbierta &&
+                    <Galeria cerrarGaleria={cerrarGaleria} />
+                }
+
+                {
+                    reservaAbierta &&
+                    <Reserva cerrarReserva={cerrarReserva} />
+                }
+
+            </HashRouter>
+
+        </div>
+    )
 }
 
 
