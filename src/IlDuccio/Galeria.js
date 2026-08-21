@@ -5,47 +5,47 @@ const Galeria = ({ cerrarGaleria }) => {
     const trabajos = [
         {
             id: 1,
-            imagen: '/ID/galeria/01.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322507/01.jpg',
             categoria: 'BLACK & GREY'
         },
         {
             id: 2,
-            imagen: '/ID/galeria/02.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322507/02.jpg',
             categoria: 'REALISM'
         },
         {
             id: 3,
-            imagen: '/ID/galeria/03.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322507/04.jpg',
             categoria: 'PORTRAIT'
         },
         {
             id: 4,
-            imagen: '/ID/galeria/04.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322508/03.jpg',
             categoria: 'BLACK & GREY'
         },
         {
             id: 5,
-            imagen: '/ID/galeria/05.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322508/05.jpg',
             categoria: 'REALISM'
         },
         {
             id: 6,
-            imagen: '/ID/galeria/06.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322508/06.jpg',
             categoria: 'CUSTOM'
         },
           {
             id: 7,
-            imagen: '/ID/galeria/07.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322509/07.jpg',
             categoria: 'BLACK & GREY'
         },
         {
             id: 8,
-            imagen: '/ID/galeria/08.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322510/08.jpg',
             categoria: 'REALISM'
         },
         {
             id: 9,
-            imagen: '/ID/galeria/09.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322510/09.jpg',
             categoria: 'CUSTOM'
         }
     ]

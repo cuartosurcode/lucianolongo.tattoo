@@ -36,7 +36,7 @@ const Artist = () => {
                 <div className="artistTattoo__imageWrapper">
 
                     <img
-                        src="/ID/IlDucciotrabajando.png"
+                        src="https://res.cloudinary.com/uyxzblhc/image/upload/v1787322452/IlDucciotrabajando.png"
                         alt="IlDucciotrabajando"
                         className="artistTattoo__image"
                     />

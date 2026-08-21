@@ -28,7 +28,7 @@ const Hero = () => {
                 <div className="heroTattoo__imageWrapper">
 
                     <img
-                        src="../../ID/luciano-hero.jpg"
+                        src="https://res.cloudinary.com/uyxzblhc/image/upload/v1787322283/luciano-hero.jpg"
                         alt="Tattoo Luciano Longo"
                         className="heroTattoo__image"
                     />

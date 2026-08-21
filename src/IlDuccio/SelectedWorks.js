@@ -7,28 +7,28 @@ const SelectedWorks = () => {
             id: '01',
             titulo: 'REALISM',
             categoria: 'BLACK & GREY',
-            imagen: '/ID/work-01.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322395/work-01.jpg',
             clase: 'selectedWorks__item--large'
         },
         {
             id: '02',
             titulo: 'PORTRAIT',
             categoria: 'REALISM',
-            imagen: '/ID/work-02.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322396/work-02.jpg',
             clase: 'selectedWorks__item--small'
         },
         {
             id: '03',
             titulo: 'MYTHOLOGY',
             categoria: 'BLACK & GREY',
-            imagen: '/ID/work-03.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322396/work-03.jpg',
             clase: 'selectedWorks__item--vertical'
         },
         {
             id: '04',
             titulo: 'DARK ART',
             categoria: 'REALISM',
-            imagen: '/ID/work-04.jpg',
+            imagen: 'https://res.cloudinary.com/uyxzblhc/image/upload/v1787322396/work-04.jpg',
             clase: 'selectedWorks__item--medium'
         }
     ]

@@ -106,7 +106,7 @@ const Intro = () => {
                         preload="metadata"
                     >
                         <source
-                            src="/ID/luciano-work.mp4"
+                            src="https://res.cloudinary.com/uyxzblhc/video/upload/v1787322347/luciano-work.mp4"
                             type="video/mp4"
                         />
                     </video>
