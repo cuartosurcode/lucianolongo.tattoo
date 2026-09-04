@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/lucianolongo.tattoo/static/css/main.1652a68e.css",
-    "main.js": "/lucianolongo.tattoo/static/js/main.f0bcf9da.js",
+    "main.css": "/lucianolongo.tattoo/static/css/main.65f31288.css",
+    "main.js": "/lucianolongo.tattoo/static/js/main.a8bc5700.js",
     "static/js/453.09ed972e.chunk.js": "/lucianolongo.tattoo/static/js/453.09ed972e.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/lucianolongo.tattoo/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
-    "static/media/bootstrap-icons.woff2?": "/lucianolongo.tattoo/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/lucianolongo.tattoo/index.html",
-    "main.1652a68e.css.map": "/lucianolongo.tattoo/static/css/main.1652a68e.css.map",
-    "main.f0bcf9da.js.map": "/lucianolongo.tattoo/static/js/main.f0bcf9da.js.map",
+    "main.65f31288.css.map": "/lucianolongo.tattoo/static/css/main.65f31288.css.map",
+    "main.a8bc5700.js.map": "/lucianolongo.tattoo/static/js/main.a8bc5700.js.map",
     "453.09ed972e.chunk.js.map": "/lucianolongo.tattoo/static/js/453.09ed972e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1652a68e.css",
-    "static/js/main.f0bcf9da.js"
+    "static/css/main.65f31288.css",
+    "static/js/main.a8bc5700.js"
   ]
 }
